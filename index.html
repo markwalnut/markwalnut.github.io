@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>MARK WALNUT</title>
+
+    
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+    <!-- Custom JavaScript -->    
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->    
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200,600" rel="stylesheet">    
+    <link href="css/custom.css" rel="stylesheet">
+    
+    <style>
+        
+    body {
+        
+        font-family: 'Source Code Pro', sans-serif;
+        font-weight: 200;
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+        
+    h1, h2, h3, h4, h5, h6,
+    .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Source Code Pro', sans-serif;
+    font-weight: 600;
+    }
+        
+    </style>
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+                <div class="button_container" id="toggle">
+                  <span class="top"></span>
+                  <span class="middle"></span>
+                  <span class="bottom"></span>
+                </div>
+
+                <div class="overlay" id="overlay">
+                  <nav class="overlay-menu">
+                    <ul>
+                      <li ><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="portfolio.html">Portfolio</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                
+            </div>
+            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+            
+        </div>
+        <aside id="bar-left" class="bar-side"><div>© 2017</div></aside>
+        <aside id="bar-right" class="bar-side right-side"><div class="right-side">CARPE OMNIUM</div></aside>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-xs-12 "><img class="img-responsive" style="margin:0 auto;max-height:620px;" src="img/caver.gif"/></div>
+    </div>
+    </div>
+
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script>
+    $('#toggle').click(function() {
+       $(this).toggleClass('active');
+       $('#overlay').toggleClass('open');
+      });
+    </script>
+
+</body>
+
+</html>
